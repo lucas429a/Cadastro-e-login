@@ -1,0 +1,78 @@
+.font{
+    font-family: var(--font-primary);
+
+    &.one{
+        font-weight: 700;
+        font-size: 1.5625rem;
+        line-height: 2.0625rem;
+        &.c1{
+            color: var(--gray-0);
+        }
+        &.c2{
+            color: var(--gray-1);
+        }
+        &.c3{
+            color: var(--color-primary);
+        }
+    }
+
+    &.two{
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 1.6494rem;
+        &.c1{
+            color: var(--gray-0);
+        }
+        &.c2{
+            color: var(--gray-1);
+        }
+        &.c3{
+            color: var(--color-primary);
+        }
+    }
+
+    &.three{
+        font-weight: 400;
+        font-size: 0.7612rem;
+        line-height: 1.3956rem;
+        &.c1{
+            color: var(--gray-0);
+        }
+        &.c2{
+            color: var(--gray-1);
+        }
+        &.c3{
+            color: var(--color-primary);
+        }
+    }
+
+    &.four{
+        font-weight: 600;
+        font-size: 0.7612rem;
+        line-height: 1.1419rem;
+        &.c1{
+            color: var(--gray-0);
+        }
+        &.c2{
+            color: var(--gray-1);
+        }
+        &.c3{
+            color: var(--color-primary);
+        }
+    }
+
+    &.five{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.1419rem;
+        &.c1{
+            color: var(--gray-0);
+        }
+        &.c2{
+            color: var(--gray-1);
+        }
+        &.c3{
+            color: var(--color-primary);
+        }
+    }
+}

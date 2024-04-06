@@ -1,0 +1,17 @@
+.inputs_cc{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px;
+    width: 370px;
+    max-width: 100%;
+    background-color: var(--gray-3);
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    margin-top: 1rem;
+}

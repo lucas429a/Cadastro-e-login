@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    margin-top: 2rem;
+    border-bottom: solid 1px var(--color-primary);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-self:center ;
+    align-items: center;
+}

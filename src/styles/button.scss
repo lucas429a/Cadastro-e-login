@@ -1,0 +1,50 @@
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--gray-0);
+    font-family: var(-font-primary);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    width: 329px;
+    height: 2rem;
+    margin-top: 20px;
+
+    &.b1{
+        background-color: var(--color-primary);
+        &.b1:hover{
+            background-color: var(--gray-1);
+        }
+    }
+
+    &.b2{
+        background-color: var(-gray-1);
+        &.b2:hover{
+            background-color: var(--color-primary);
+        }
+    }
+
+    &.b3{
+        background-color: var(--color-primary-negative);
+        &.b3:hover{
+            background-color: var(--color-primary);
+        }
+    }
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary-negative);
+    color: var(--gray-0);
+    width: 80px;
+    border-radius: 4px;
+    height: 2rem;
+    text-decoration: none;
+
+    &:hover{
+        background-color: var(--color-primary);
+    }
+}

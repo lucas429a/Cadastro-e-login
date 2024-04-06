@@ -1,0 +1,18 @@
+.input{
+    height: 2rem;
+    width: 20.5625rem;
+    border-radius: 0.25rem;
+    padding: 0px 16px;
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1419rem;
+    background-color: var(--gray-2);
+    margin-top: 5px;
+        &.reg{
+            border: 1px transparent;
+        }
+        &.log{
+            border: 1px solid var(-gray-0);
+        }
+}
